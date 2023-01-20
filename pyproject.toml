@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyskybitz"
-version = "0.1.2"
+version = "0.1.3"
 description = "Python client to work with SkyBitz API"
 authors = ["Jasurbek Nurboyev <jasurbeknurboyev@gmail.com>"]
 
@@ -13,6 +13,7 @@ python = "^3.9"
 requests = "^2.28.1"
 Inject = "^4.3.1"
 pydantic = "1.10.4"
+lxml = "^4.9.2"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.189"

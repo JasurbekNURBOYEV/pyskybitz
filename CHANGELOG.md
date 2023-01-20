@@ -1,5 +1,8 @@
 Release history
 
+## 0.1.3 - 20.01.2023
+ - Include lxml as a dependency.
+
 ## 0.1.2 - 20.01.2023
  - Preparations for packaging the project.
 
