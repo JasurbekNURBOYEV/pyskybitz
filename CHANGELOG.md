@@ -1,5 +1,8 @@
 Release history
 
+## 0.1.4 - 20.01.2023
+ - Include six as a dependency.
+
 ## 0.1.3 - 20.01.2023
  - Include lxml as a dependency.
 
