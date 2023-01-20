@@ -1,7 +1,7 @@
 """Parser tests."""
 import datetime
 
-import src.services.parser as under_testing
+import pyskybitz.services.parser as under_testing
 from tests.sample_data_loader import load_sample_data
 
 QUERY_POSITIONS_SAMPLE_DATA = load_sample_data(

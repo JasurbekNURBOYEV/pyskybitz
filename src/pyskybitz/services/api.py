@@ -6,9 +6,9 @@ from typing import Any, Dict, Optional
 import inject
 import requests
 
-from src.config import ConnectionConfig
-from src.models.base import SkyBitz
-from src.services.parser import Parser
+from pyskybitz.config import ConnectionConfig
+from pyskybitz.models.base import SkyBitz
+from pyskybitz.services.parser import Parser
 
 LOGGER = logging.getLogger("API")
 LOGGER.setLevel(logging.INFO)

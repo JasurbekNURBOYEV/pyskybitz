@@ -5,7 +5,7 @@ import sys
 
 from lxml import etree as etree_
 
-from src.models.base import SkyBitz
+from pyskybitz.models.base import SkyBitz
 
 TagPattern = re.compile(r"({.*})?(.*)")
 CDATAPattern = re.compile(r"<!\[CDATA\[.*?\]\]>", re.DOTALL)

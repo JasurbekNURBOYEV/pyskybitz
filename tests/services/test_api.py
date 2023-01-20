@@ -4,7 +4,7 @@ from unittest.mock import MagicMock
 import pytest
 import requests
 
-import src.services.api as under_testing
+import pyskybitz.services.api as under_testing
 
 
 @pytest.fixture()

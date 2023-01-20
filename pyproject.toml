@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "pyskybitz"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python client to work with SkyBitz API"
 authors = ["Jasurbek Nurboyev <jasurbeknurboyev@gmail.com>"]
+
+packages = [
+    { include = "pyskybitz", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
