@@ -1,5 +1,8 @@
 Release history
 
+## 0.1.5 - 27.01.2023
+ - Use silent mode while parsing an API response.
+
 ## 0.1.4 - 20.01.2023
  - Include six as a dependency.
 

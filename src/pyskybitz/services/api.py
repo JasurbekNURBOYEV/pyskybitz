@@ -122,7 +122,7 @@ class API:
         :param response: XML Response from API.
         :return: SkyBitz python object.
         """
-        return self.parser_service.parse_string(response.text)
+        return self.parser_service.parse_string(response.text, silence=True)
 
     def _call_api_method(
         self, method: HTTPMethod, api_method_name: APIMethods, payload: Dict[str, str]
