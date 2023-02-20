@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyskybitz"
-version = "0.1.5"
+version = "0.1.6"
 description = "Python client to work with SkyBitz API"
 authors = ["Jasurbek Nurboyev <jasurbeknurboyev@gmail.com>"]
 
@@ -12,7 +12,7 @@ packages = [
 python = "^3.9"
 requests = "^2.28.1"
 Inject = "^4.3.1"
-pydantic = "1.10.4"
+pydantic = "^1.10.4"
 lxml = "^4.9.2"
 six = "1.16.0"
 
@@ -21,7 +21,7 @@ ruff = "^0.0.189"
 pytest = "^7.2.0"
 pre-commit = "^2.20.0"
 black = "^22.12.0"
-generateDS = "2.41.1"
+generateDS = "^2.41.1"
 
 [tool.poetry.extras]
 codegen = ["generateDS"]

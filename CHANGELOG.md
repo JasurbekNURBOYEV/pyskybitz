@@ -1,5 +1,8 @@
 Release history
 
+## 0.1.6 - 20.02.2023
+ - Relax pinned versions of dependencies.
+
 ## 0.1.5 - 27.01.2023
  - Use silent mode while parsing an API response.
 
@@ -13,7 +16,7 @@ Release history
  - Preparations for packaging the project.
 
 ## 0.1.1 - 19.01.2023
- - Full support for QueryPositions method
+ - Full support for QueryPositions method.
 
 ## 0.1.0 - 21.12.2022
- - Initial setup
+ - Initial setup.
